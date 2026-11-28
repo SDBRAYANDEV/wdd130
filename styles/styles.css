@@ -1,6 +1,6 @@
 :root {
---heading-margin: 0;
---main-padding-rem: 0.5rem;    
+    --heading-margin: 0;
+    --main-padding-rem: 0.5rem;
 }
 
 * {
@@ -65,7 +65,7 @@ aside h2 {
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
 }
 
@@ -77,10 +77,6 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
-}
-
-main ul {
-    padding-left: 1.5rem;
 }
 
 p {
@@ -98,8 +94,8 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
-    border: 1px solid #ccc;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #eee;
+    color: #000;
 }
