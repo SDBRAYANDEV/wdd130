@@ -1,5 +1,10 @@
+:root {
+--heading-margin: 0;
+--main-padding-rem: 0.5rem;    
+}
+
 * {
-    margin: 0;
+    margin: var(--heading-margin);
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,7 +24,7 @@ nav {
 
 nav a {
     display: block;
-    padding: 0.5rem;
+    padding: var(--main-padding-rem);
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -29,7 +34,7 @@ nav a {
 h1 {
     color: steelblue;
     border-bottom: 1px solid #777;
-    padding-bottom: 0.5rem;
+    padding-bottom: var(--main-padding-rem);
     margin-bottom: 1rem;
 }
 
